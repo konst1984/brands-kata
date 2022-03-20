@@ -193,7 +193,7 @@ button:focus{
     outline: 1px solid #41F6D7;
 }
 
-.btn__arrow-icon{
+.btn-next__icon{
     width: 24px;
     height: 24px;
 }
