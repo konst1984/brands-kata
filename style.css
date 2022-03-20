@@ -240,4 +240,7 @@ button:focus{
         row-gap: 16px;
         column-gap: 32px;
     }
+    .btn-next{
+        letter-spacing: -0.3px;
+    }
 }
