@@ -9,6 +9,8 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         type: 'bullets',
         clickable: true,
+        // dynamicBullets: true,
+        // dynamicMainBullets: 7,
     },
     mousewheel: {
         invert: true,
@@ -18,7 +20,6 @@ const swiper = new Swiper('.swiper', {
         onlyInViewport: true,
         pageUpDown: true,
     },
-
 });
 
 

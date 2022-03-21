@@ -45,20 +45,6 @@ body,html{
     margin: 0;
 }
 
-.card{
-    min-height: 72px;
-    max-width: 240px;
-
-}
-
-.slider-container{
-    position: relative;
-    margin:0 auto;
-    padding: 0 15px;
-    max-width: 2640px;
-    min-height: 102px;
-}
-
 .btn-round{
     padding: 0;
     width: 40px;
@@ -69,7 +55,6 @@ body,html{
 }
 
 .brands-wrapper{
-    max-width: 1120px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -96,8 +81,7 @@ body,html{
     transition:max-height 1s;
 }
 
-.grid-item,
-.card{
+.grid-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,6 +90,11 @@ body,html{
     border: 1px solid #EAEAEA;
     border-radius: 10px;
 
+}
+
+.grid-item--brand{
+    min-height: 72px;
+    max-width: 240px;
 }
 
 .grid-item__btn{
@@ -164,6 +153,7 @@ body,html{
     width: 12px;
     height: 12px;
     visibility: visible;
+    flex-shrink: 0;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
