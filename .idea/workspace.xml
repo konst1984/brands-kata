@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f8c4ca0-ef60-4cf8-8566-69b807ff70a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Тренировка/Эвклид" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Swiper-1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,6 +61,14 @@
       <workItem from="1647107897837" duration="2773000" />
       <workItem from="1647548924359" duration="20243000" />
       <workItem from="1647808417856" duration="6447000" />
+      <workItem from="1647816810002" duration="1565000" />
+      <workItem from="1647849039205" duration="4721000" />
+      <workItem from="1647854333424" duration="38000" />
+      <workItem from="1647854458545" duration="6161000" />
+      <workItem from="1647860893617" duration="3871000" />
+      <workItem from="1647865532734" duration="258000" />
+      <workItem from="1647866263807" duration="216000" />
+      <workItem from="1647871882276" duration="6872000" />
     </task>
     <servers />
   </component>
