@@ -30,6 +30,6 @@ document.querySelector('.btn-next--brands').addEventListener('click', function (
         panel.style.maxHeight = "176px";
     } else {
         panel.style.maxHeight = panel.scrollHeight + "px";
-        this.innerHTML = ' <img class="btn-next__icon" src="images/expand.svg" alt="Двойная стрелка вниз">Скрыть';
+        this.innerHTML = ' <img class="btn-next__icon" src="images/expand -up.svg" alt="Двойная стрелка вверх">Скрыть';
     }
 })
