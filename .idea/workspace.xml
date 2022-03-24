@@ -6,9 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="3f8c4ca0-ef60-4cf8-8566-69b807ff70a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/TTLakes-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-DemiBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/TTLakes-DemiBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/TTLakes-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/TTLakes-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Bitmap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Bitmap.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/expand-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/expand-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/expand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/expand.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +38,17 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="260jglQ9WCOIn6yxQxtjOlELkAG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,17 +57,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Swiper-1" />
+    <property name="code.cleanup.on.save" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Конст\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\HTML\service__software\assets" />
+      <recent name="F:\HTML\service__software\styles" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,11 +101,31 @@
       <workItem from="1647860893617" duration="3871000" />
       <workItem from="1647865532734" duration="258000" />
       <workItem from="1647866263807" duration="216000" />
-      <workItem from="1647871882276" duration="10193000" />
+      <workItem from="1647871882276" duration="10365000" />
+      <workItem from="1648105389229" duration="811000" />
+      <workItem from="1648106236215" duration="2180000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.prettierignore" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
