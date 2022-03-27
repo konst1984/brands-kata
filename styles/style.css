@@ -180,12 +180,12 @@ html {
 
 @media (min-width:767px) {
     .swiper { display:none; }
-
+    
     .brands-wrapper {
         padding:0 24px;
         gap:15px;
     }
-
+    
     .grid-list {
         display:grid;
         justify-content:space-between;
@@ -193,7 +193,7 @@ html {
         row-gap:16px;
         column-gap:24px;
     }
-
+    
     .btn-next--brands {
         display:flex;
         margin-top:16px;
@@ -203,13 +203,13 @@ html {
 
 @media (min-width:1120px) {
     .brands-wrapper { padding:0 32px; }
-
+    
     .grid-list {
         display:grid;
         grid-template-columns:repeat(auto-fill,240px);
         row-gap:16px;
         column-gap:32px;
     }
-
+    
     .btn-next { letter-spacing:-0.4px; }
 }
