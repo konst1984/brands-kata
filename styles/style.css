@@ -1,235 +1,235 @@
 @font-face {
-    font-family: "TT Lakes";
-    src: url(../assets/fonts/TTLakes-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font‑display: swap;
+  font-family: "TT Lakes";
+  src: url(../assets/fonts/TTLakes-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font‑display: swap;
 }
 
 @font-face {
-    font-family: "TT Lakes";
-    src: url(../assets/fonts/TTLakes-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font‑display: swap;
+  font-family: "TT Lakes";
+  src: url(../assets/fonts/TTLakes-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font‑display: swap;
 }
 
 @font-face {
-    font-family: "TT Lakes";
-    src: url(../assets/fonts/TTLakes-Bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font‑display: swap;
+  font-family: "TT Lakes";
+  src: url(../assets/fonts/TTLakes-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font‑display: swap;
 }
 
 @font-face {
-    font-family: "TT Lakes";
-    src: url(../assets/fonts/TTLakes-DemiBold.woff) format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font‑display: swap;
+  font-family: "TT Lakes";
+  src: url(../assets/fonts/TTLakes-DemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font‑display: swap;
 }
 
 body,
 html {
-    width: 100%;
-    height: 100%;
-    font-family: "TT Lakes", sans-serif;
-    font-weight: 400;
+  width: 100%;
+  height: 100%;
+  font-family: "TT Lakes", sans-serif;
+  font-weight: 400;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .btn-round {
-    padding: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background-color: #fff;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
 }
 
 .brands-wrapper {
-    margin: 0 auto;
-    padding: 0 16px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .title--lightgrey {
-    padding: 16px 0 32px;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: -0.4px;
-    text-transform: uppercase;
-    color: #7e7e82;
+  padding: 16px 0 32px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  color: #7e7e82;
 }
 
 .grid-list {
-    display: none;
-    padding-top: 10px;
-    grid-template-columns: repeat(auto-fill, 240px);
-    row-gap: 16px;
-    column-gap: 32px;
-    grid-auto-rows: 72px;
-    overflow: hidden;
-    max-height: 176px;
-    transition: max-height 1s;
+  display: none;
+  padding-top: 10px;
+  grid-template-columns: repeat(auto-fill, 240px);
+  row-gap: 16px;
+  column-gap: 32px;
+  grid-auto-rows: 72px;
+  overflow: hidden;
+  max-height: 176px;
+  transition: max-height 1s;
 }
 
 .grid-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 16px 10px;
-    height: 72px;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16px 10px;
+  height: 72px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
 }
 
 .grid-item--brand {
-    min-height: 72px;
-    max-width: 240px;
+  min-height: 72px;
+  max-width: 240px;
 }
 
 .grid-item__btn {
-    position: relative;
-    border: 1px solid #ff3e79;
-    bottom: 5px;
+  position: relative;
+  border: 1px solid #ff3e79;
+  bottom: 5px;
 }
 
 .grid-item__btn:hover {
-    background: rgba(255, 62, 121, 0.4);
-    border: 2px solid #fff;
+  background: rgba(255, 62, 121, 0.4);
+  border: 2px solid #fff;
 }
 
 .grid-item__btn:active {
-    background: rgba(255, 62, 121, 0.7);
-    border: 2px solid #fff;
+  background: rgba(255, 62, 121, 0.7);
+  border: 2px solid #fff;
 }
 
 .grid-item__btn::before,
 .grid-item__btn:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 10px;
-    height: 2px;
-    background-color: #ff3e79;
-    border-radius: 10px;
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 2px;
+  background-color: #ff3e79;
+  border-radius: 10px;
 }
 
 .grid-item__btn::before {
-    transform: translateX(-50%) rotate(-45deg) translateY(2px);
+  transform: translateX(-50%) rotate(-45deg) translateY(2px);
 }
 
 .grid-item__btn:after {
-    transform: translateX(-50%) rotate(45deg) translate(-2px, -4px);
+  transform: translateX(-50%) rotate(45deg) translate(-2px, -4px);
 }
 
 .grid-item__btn:hover.grid-item__btn::before,
 .grid-item__btn:hover.grid-item__btn::after,
 .grid-item__btn:active.grid-item__btn::before,
 .grid-item__btn:active.grid-item__btn::after {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .swiper-wrapper {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .swiper-pagination {
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-    visibility: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  visibility: hidden;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
-    position: relative;
-    top: 10px;
-    width: 12px;
-    height: 12px;
-    visibility: visible;
-    flex-shrink: 0;
+  position: relative;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+  visibility: visible;
+  flex-shrink: 0;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #979797;
+  background-color: #979797;
 }
 
 .btn-next {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 2px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1b1c21;
-    outline: none;
-    border: none;
-    background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b1c21;
+  outline: none;
+  border: none;
+  background-color: transparent;
 }
 
 .btn-next:focus {
-    outline: none;
+  outline: none;
 }
 
 .btn-next:focus-visible {
-    padding-right: 5px;
-    outline: 1px solid #41f6d7;
+  padding-right: 5px;
+  outline: 1px solid #41f6d7;
 }
 
 .btn-next__icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .btn-next--brands {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 767px) {
-    .swiper {
-        display: none;
-    }
+  .swiper {
+    display: none;
+  }
 
-    .brands-wrapper {
-        padding: 0 24px;
-        gap: 15px;
-    }
+  .brands-wrapper {
+    padding: 0 24px;
+    gap: 15px;
+  }
 
-    .grid-list {
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(auto-fill, 224px);
-        row-gap: 16px;
-        column-gap: 24px;
-    }
+  .grid-list {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, 224px);
+    row-gap: 16px;
+    column-gap: 24px;
+  }
 
-    .btn-next--brands {
-        display: flex;
-        margin-top: 16px;
-        letter-spacing: -0.2px;
-    }
+  .btn-next--brands {
+    display: flex;
+    margin-top: 16px;
+    letter-spacing: -0.2px;
+  }
 }
 
 @media (min-width: 1120px) {
-    .brands-wrapper {
-        padding: 0 32px;
-    }
+  .brands-wrapper {
+    padding: 0 32px;
+  }
 
-    .grid-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 240px);
-        row-gap: 16px;
-        column-gap: 32px;
-    }
+  .grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    row-gap: 16px;
+    column-gap: 32px;
+  }
 
-    .btn-next {
-        letter-spacing: -0.4px;
-    }
+  .btn-next {
+    letter-spacing: -0.4px;
+  }
 }
