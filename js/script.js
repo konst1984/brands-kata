@@ -28,11 +28,11 @@ document
     let panel = this.previousElementSibling;
     if (panel.clientHeight > 176) {
       this.innerHTML =
-        ' <img class="btn-next__icon" src="../assets/images/expand.svg" alt="Двойная стрелка вниз">Показать все';
+        '<img class="btn-next__icon" src="./assets/images/expand.svg" alt="Двойная стрелка вниз">Показать все';
       panel.style.maxHeight = "176px";
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
       this.innerHTML =
-        ' <img class="btn-next__icon" src="../assets/images/expand-up.svg" alt="Двойная стрелка вверх">Скрыть';
+        '<img class="btn-next__icon" src="./assets/images/expand-up.svg" alt="Двойная стрелка вверх">Скрыть';
     }
   });
